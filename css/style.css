@@ -50,7 +50,7 @@ header{
 .popUP.active {
   display: block;
 }
-.poopUp:hover{
+button:hover{
     transform:scale(1.01);
 }
 
@@ -139,6 +139,7 @@ flex-wrap: nowrap;
    }
    transition: ease-in-out 400ms;
 }
+
 
 
 
