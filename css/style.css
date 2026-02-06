@@ -36,7 +36,7 @@ header{
 
 .menu{
     margin-right: 2%;
-    width: 180px;
+    width: 280px;
     flex: none;
     background-color:transparent;
     display: flex;
@@ -127,3 +127,4 @@ flex-wrap: nowrap;
    }
    transition: ease-in-out 400ms;
 }
+
