@@ -110,7 +110,7 @@ document.querySelectorAll(".color-bar").forEach(bar => {
 
         bars.forEach(b => colors.push(b.dataset.color.replace("#", "")));
 
-        let link = "https://your-site.com/?colors=" + colors.join("-");
+        let link = "https://github.com/aLeC199/?colors=" + colors.join("-");
 
         let textToCopy = 
 `Palette:
@@ -139,3 +139,4 @@ function toggleLight() {
     lightToggle.classList.replace("bx-moon", "bx-sun");
   }
 }
+
