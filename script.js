@@ -143,6 +143,7 @@ function toggleLight() {
 //--------------popup instructions------------//
 
 function showInstructions() {
-  document.querySelector(".popUP").classList.toggle("active");
+  document.querySelector(".popUp").classList.toggle("active");
 }
+
 
