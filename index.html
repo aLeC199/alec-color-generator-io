@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/boxicons.css">
 </head>
 <body>
-    <div class="containe">
+    <div class="container">
 
         <header>
         <div class="logo-title">
@@ -16,7 +16,11 @@
         </div>
             <div class="menu">
                 <p class="toggle-btn">ReGenerate</p>
-                <i class='bx bx-moon' onclick="toggleLight()"></i>
+    <button style="padding:12px 9px; border-radius: 12px; font-size: 0.8rem; text-transform: uppercase; background: #777; border: 1px solid #222;;" onclick="showInstructions()">How to</button>
+<div class="popUp-box" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%); background: #222; color: white; letter-spacing: 0.01em; font-size: 1.2rem; padding: 12px;
+text-align: justify; display: none;">
+
+</div>                <i class='bx bx-moon' onclick="toggleLight()"></i>
             </div>
         </header>
         <main>
@@ -62,4 +66,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
