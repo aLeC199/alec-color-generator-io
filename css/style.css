@@ -50,6 +50,9 @@ header{
 .popUP.active {
   display: block;
 }
+.poopUp:hover{
+    transform:scale(1.01);
+}
 
 .menu i{
     font-size: 1.8rem;
@@ -136,5 +139,6 @@ flex-wrap: nowrap;
    }
    transition: ease-in-out 400ms;
 }
+
 
 
