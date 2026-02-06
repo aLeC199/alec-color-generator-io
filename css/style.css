@@ -43,11 +43,11 @@ header{
     align-items: center;
 }
 
-.popUP {
+.popUp {
   display: none;
 }
 
-.popUP.active {
+.popUp.active {
   display: block;
 }
 button:hover{
@@ -139,6 +139,7 @@ flex-wrap: nowrap;
    }
    transition: ease-in-out 400ms;
 }
+
 
 
 
