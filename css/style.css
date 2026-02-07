@@ -79,7 +79,7 @@ button:hover{
     box-shadow: 0px 0px 1px 1px #c0bfbf;
 }
 main{
-height: calc(100vh - 12vh - 1px);
+height: calc(100vh - 8vh - 1px);
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -139,6 +139,7 @@ flex-wrap: nowrap;
    }
    transition: ease-in-out 400ms;
 }
+
 
 
 
