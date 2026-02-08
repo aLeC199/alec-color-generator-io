@@ -132,11 +132,11 @@ function toggleLight() {
   const body = document.body;
 
   if (body.classList.contains("light-mode")) {
-    body.classList.remove("light-mode");
-    lightToggle.classList.replace("bx-sun", "bx-moon");
-  } else {
     body.classList.add("light-mode");
     lightToggle.classList.replace("bx-moon", "bx-sun");
+  } else {
+    body.classList.remove("light-mode");
+    lightToggle.classList.replace("bx-sun", "bx-moon");
   }
 }
 
@@ -145,5 +145,6 @@ function toggleLight() {
 function showInstructions() {
   document.querySelector(".popUp").classList.toggle("active");
 }
+
 
 
