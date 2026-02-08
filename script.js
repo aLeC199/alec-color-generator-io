@@ -44,7 +44,7 @@ function generateColors() {
 
 document.querySelectorAll(".color-bar").forEach((bar) => {
   const copyBtn = bar.querySelector(".bx-copy");
-  const lockBtn = bar.querySelector(".bx-lock");
+  const lockBtn = bar.querySelector(".bx-lock-open");
 
   // -------- COPY INDIVIDUAL COLOR ----------
   document.querySelectorAll(".color-bar").forEach((bar) => {
@@ -145,6 +145,7 @@ function toggleLight() {
 function showInstructions() {
   document.querySelector(".popUp").classList.toggle("active");
 }
+
 
 
 
