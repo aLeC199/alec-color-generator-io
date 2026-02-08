@@ -66,11 +66,11 @@ document.querySelectorAll(".color-bar").forEach((bar) => {
 
     // Change icon visually
     if (isLocked) {
-     lockBtn.classList.remove("bx-lock");
-      lockBtn.classList.add("bx-lock-open");
-    } else {
        lockBtn.classList.remove("bx-lock-open");
       lockBtn.classList.add("bx-lock");
+    } else {
+       lockBtn.classList.add("bx-lock");
+       lockBtn.classList.remove("bx-lock-open");
     }
   });
 });
@@ -145,6 +145,7 @@ function toggleLight() {
 function showInstructions() {
   document.querySelector(".popUp").classList.toggle("active");
 }
+
 
 
 
