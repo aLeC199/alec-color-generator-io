@@ -66,11 +66,11 @@ document.querySelectorAll(".color-bar").forEach((bar) => {
 
     // Change icon visually
     if (isLocked) {
-      lockBtn.classList.remove("bx-lock-open");
-      lockBtn.classList.add("bx-lock");
-    } else {
-      lockBtn.classList.remove("bx-lock");
+     lockBtn.classList.remove("bx-lock");
       lockBtn.classList.add("bx-lock-open");
+    } else {
+       lockBtn.classList.remove("bx-lock-open");
+      lockBtn.classList.add("bx-lock");
     }
   });
 });
@@ -132,11 +132,11 @@ function toggleLight() {
   const body = document.body;
 
   if (body.classList.contains("light-mode")) {
-    body.classList.add("light-mode");
-    lightToggle.classList.replace("bx-moon", "bx-sun");
-  } else {
-    body.classList.remove("light-mode");
+   body.classList.remove("light-mode");
     lightToggle.classList.replace("bx-sun", "bx-moon");
+  } else {
+     body.classList.add("light-mode");
+    lightToggle.classList.replace("bx-moon", "bx-sun");
   }
 }
 
@@ -145,6 +145,7 @@ function toggleLight() {
 function showInstructions() {
   document.querySelector(".popUp").classList.toggle("active");
 }
+
 
 
 
